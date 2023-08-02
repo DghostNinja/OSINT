@@ -1,0 +1,18 @@
+/_cat/indices?v
+[view users index]
+
+/_search?size=100
+[view content]
+
+cat * > WP-co.txt
+[create clean up file]
+
+LANG=C SED -e  's/\"//g' WP-co.txt > WP-COn.txt
+[regex reduce file characters]
+
+LANG=C cut -d, -f1,2,3,4,5,16,17,20,25 WP-COn.txt > WP-cOn.txt3.txt
+[third clean up]
+
+rg -a -F -i -N "John Smit" WP-cOn.txt3.txt
+[search for content in file]
+
