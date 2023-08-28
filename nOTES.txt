@@ -16,3 +16,45 @@ LANG=C cut -d, -f1,2,3,4,5,16,17,20,25 WP-COn.txt > WP-cOn.txt3.txt
 rg -a -F -i -N "John Smit" WP-cOn.txt3.txt
 [search for content in file]
 
+Haveibeenpwned.com
+[check email leak]
+
+leekpeek.com
+[check email password leak]
+
+leakcheck.com
+[check email pass leak]
+
+pwdquery.com
+[check email pass leak]****
+
+blackbookonline
+[check criminal record]*****
+
+arrestfact
+[criminal record]
+
+department of correcttion (state)
+[criminal record]
+
+federal bereau of prisons
+[crim' record]
+
+Online Detainee Locator System
+[crim' record]
+
+city protect
+[check crime in area]
+
+family watchdog
+[s*x offendders]
+
+Vine
+[monitor changes in prison record]
+
+
+
+
+
+
+
